@@ -1,6 +1,6 @@
 {
-  "name": "mongo-eco",
-  "version": "1.0.0",
+  "name": "@shinchanop/mongo-eco",
+  "version": "1.0.1",
   "description": "A powerful module that allows you to create economy system in your bot.",
   "main": "index.js",
   "scripts": {
