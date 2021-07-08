@@ -1,7 +1,7 @@
 # Mongo Eco
 <p align="center"><img align="center" style="width:0.5px" src="https://media.discordapp.net/attachments/818900078077018162/862631346035752970/banner.png"/></p><br/>
 <p align="center">
-   <img alt="npm" src="https://img.shields.io/npm/dt/mongo-eco">
+   <img alt="npm" src="https://img.shields.io/npm/dt/@shinchanop/mongo-eco">
    <a href="https://discord.gg/invite/emD44ZJaSA"><img src="https://badgen.net/discord/online-members/emD44ZJaSA" alt="Discord"></a>
 </p>
 
@@ -9,11 +9,11 @@
 
 ## **Installation** 
 ```
-npm install mongo-eco
+npm install @shinchanop/mongo-eco
 ```
 ```js
 //Import package
-const economy = require("mongo-eco");
+const economy = require("@shinchanop/mongo-eco");
 //create new economy() Class
 const eco = new economy('YOUR MONGODB URI');
 // use the methods
