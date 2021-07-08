@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const client = new discord.Client({
   disableEveryone: true // 
 });
-const economy = require("../lib/MongoEco")
+const economy = require("@shinchanop/mongo-eco")
 const { MessageEmbed } = require("discord.js");
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
