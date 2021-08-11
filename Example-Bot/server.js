@@ -17,15 +17,6 @@ client.aliases = new discord.Collection();
 client.on("ready", async () => {
   console.log("I am Reday to Go");
   client.user.setActivity("/help | Aztex OP");
-  await mongoose.connect(
-    "",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useFindAndModify: false,
-      useCreateIndex: true
-    }
-  );
 });
 
 mongoose.connection.on("connected", () => {
