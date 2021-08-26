@@ -1,0 +1,1864 @@
+{
+	"info": {
+		"_postman_id": "546708e6-5616-41f8-8f52-072ed5be8159",
+		"name": "MEMER",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://memer-api.live/api/v4/cry?token=MemerAPIToken&text=SampleText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"cry"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SampleText"
+						}
+					]
+				},
+				"description": "Memer API"
+			},
+			"response": []
+		},
+		{
+			"name": "Disability",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/disability?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"disability"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dab",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/dab?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"dab"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Door",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/door?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"door"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Egg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/egg?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"egg"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Failure",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/failure?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"failure"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/cancer?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"cancer"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fakenews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/fakenews?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"fakenews"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wanted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/wanted?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"wanted"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Roblox",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/roblox?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"roblox"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ipad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/ipad?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"ipad"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Laid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/laid?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"laid"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ugly",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/ugly?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"ugly"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hitler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/hitler?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"hitler"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/jail?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"jail"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Communism",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/communism?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"communism"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Corporate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/corporate?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"corporate"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bongocat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/bongocat?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"bongocat"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Brazzers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/brazzers?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"brazzers"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Whodidthis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/whodidthis?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"whodidthis"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Trash",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/trash?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"trash"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "America",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/america?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"america"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Affect",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/affect?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"affect"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Aborted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/aborted?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"aborted"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/delete?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "satan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/satan?token=MemerAPIToken&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"satan"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kiss",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/kiss?token=M1blMbF8ds8&avatar1=SomeAvatar&avatar2=SomeAvatar2",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"kiss"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "M1blMbF8ds8"
+						},
+						{
+							"key": "avatar1",
+							"value": "SomeAvatar"
+						},
+						{
+							"key": "avatar2",
+							"value": "SomeAvatar2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tweet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/tweet?token=MemerAPIToken&avatars=SomeAvatarURL&text=SomeText&usernames=SomeUsername",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"tweet"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						},
+						{
+							"key": "usernames",
+							"value": "SomeUsername"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Youtube",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/youtube?token=MemerAPIToken&avatars=SomeAvatarURL&text=SomeText&usernames=SomeUsername",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"youtube"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						},
+						{
+							"key": "usernames",
+							"value": "SomeUsername"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excuseme",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/excuseme?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"excuseme"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Savehumanity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/savehumanity?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"savehumanity"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stonks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/stonks?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"stonks"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vr",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/vr?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"vr"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Isearch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/isearch?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"isearch"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Shit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/shit?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"shit"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Humansgood",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/humansgood?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"humansgood"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Emergencymeeting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/emergencymeeting?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"emergencymeeting"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Keepdistance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/keepdistance?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"keepdistance"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Walking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/walking?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"walking"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stroke",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/stroke?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"stroke"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Note",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/note?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"note"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pepesign",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/pepesign?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"pepesign"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Armor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/armor?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"armor"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Facts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/facts?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"facts"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Abandon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/abandon?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"abandon"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ohno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/ohno?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"ohno"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Changemymind",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/changemymind?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"changemymind"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cheating",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/cheating?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"cheating"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Godwhy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/godwhy?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"godwhy"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Violence",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/violence?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"violence"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notstonks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/notstonks?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"notstonks"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Piccolo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/piccolo?token=MemerAPIToken&text=SomeText",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"piccolo"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tornado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/tornado?token=MemerAPIToken&text=SomeText&text2=SomeText2",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"tornado"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						},
+						{
+							"key": "text2",
+							"value": "SomeText2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Drake",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/drake?token=MemerAPIToken&text=SomeText&text2=SomeText2",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"drake"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						},
+						{
+							"key": "text2",
+							"value": "SomeText2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Floor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/floor?token=MemerAPIToken&text=SomeText&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"floor"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Draw25",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/draw25?token=MemerAPIToken&text=SomeText&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"draw25"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obama",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/obama?token=MemerAPIToken&text=SomeText&avatars=SomeAvatarURL",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"obama"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "MemerAPIToken"
+						},
+						{
+							"key": "text",
+							"value": "SomeText"
+						},
+						{
+							"key": "avatars",
+							"value": "SomeAvatarURL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Byemom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://memer-api.live/api/v4/byemom?token=YourMemerToken&text=Hello&avatars=https://cdn.discordapp.com/avatars/488225580156715008/ea77db45fc2a7929bc906cffeedd6809.png?size=256&usernames=Memer",
+					"protocol": "https",
+					"host": [
+						"memer-api",
+						"live"
+					],
+					"path": [
+						"api",
+						"v4",
+						"byemom"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "YourMemerToken"
+						},
+						{
+							"key": "text",
+							"value": "Hello"
+						},
+						{
+							"key": "avatars",
+							"value": "https://cdn.discordapp.com/avatars/488225580156715008/ea77db45fc2a7929bc906cffeedd6809.png?size=256"
+						},
+						{
+							"key": "usernames",
+							"value": "Memer"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
