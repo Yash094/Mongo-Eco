@@ -1,4 +1,4 @@
-{
+
     "meta": {
         "generator": "0.10.0",
         "format": 20,
@@ -20,4 +20,3 @@
             "path": "test/docs/methods/methods.md"
         }
     }
-}
