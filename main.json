@@ -5,7 +5,6 @@
   },
   "custom": {
     "general": {
-@@ -11,7 +11,7 @@
         "welcome": {
           "name": "General",
           "type": "md",
@@ -13,7 +12,6 @@
           "path": "test/docs/general/welcome.md"
         }
       }
-@@ -22,7 +22,7 @@
         "methods": {
           "name": "Methods",
           "type": "md",
