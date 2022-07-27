@@ -1,4 +1,3 @@
-# Mongo Eco
 <p align="center"><img align="center" style="width:0.5px" src="https://media.discordapp.net/attachments/818900078077018162/862631346035752970/banner.png"/></p><br/>
 <p align="center">
    <img alt="npm" src="https://img.shields.io/npm/dt/@shinchanop/mongo-eco">
