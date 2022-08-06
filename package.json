@@ -9,7 +9,7 @@
   "author": "shinchanop",
   "license": "GPL-3.0",
   "dependencies": {
-    "mongoose": "^5.13.2"
+   "mongoose": "^6.4.6"
   },
   "repository": {
     "type": "git",
